@@ -15,3 +15,4 @@
 13. We are symbols, and inhabit symbols? Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 14. Copy HTML files? Create a script that copies all the HTML files from the current working directory to the parent of the working directory
 15. Let’s move? Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+16. Clean Emacs? Create a script that deletes all files in the current working directory that end with the character ~.
