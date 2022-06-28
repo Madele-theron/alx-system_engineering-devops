@@ -15,17 +15,7 @@ Task 6. Line #2
 - Write a script that displays the third line of the file `iacta`. 
 Task 7. It is a good file that cuts iron without making a noise
 - Write a shell script that creates a file named exactly `\*\'Best School\'\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line. 
-Task 8. Save current state of directory
-- Write a script that writes into the file  the result of the command total 36
-drwxr-xr-x 2 root root 179 Jun 28 03:08 .
-drwxr-xr-x 6 root root 121 Jun 27 09:53 ..
--rwxr--r-- 1 root root  32 Jun 27 10:07 0-hello_world
--rwxr--r-- 1 root root  29 Jun 28 01:03 1-confused_smiley
--rwxr--r-- 1 root root  28 Jun 28 01:08 2-hellofile
--rwxr--r-- 1 root root  39 Jun 28 01:20 3-twofiles
--rwxr--r-- 1 root root  35 Jun 28 01:31 4-lastlines
--rwxr--r-- 1 root root  35 Jun 28 02:15 5-firstlines
--rwxr--r-- 1 root root  36 Jun 28 01:43 6-third_line
--rwxr--r-- 1 root root  99 Jun 28 03:08 7-file
--rw-r--r-- 1 root root 930 Jun 28 03:31 README.md. If the file  already exists, it should be overwritten. If the file  does not exist, create it. 
+Task 8. Save current state of directory 
 - Write a script that writes into the file `ls_cwd_content` the result of the command `ls -la`. If the file `ls_cwd_content` already exists, it should be overwritten. If the file `ls_cwd_content` does not exist, create it. 
+Task 9. Duplicate last line
+- Write a script that duplicates the last line of the file `iacta`
