@@ -9,3 +9,5 @@ Task 3. What about 2?
 - Display the content of `/etc/passwd` and `/etc/hosts` file.
 Task 4. Last lines of a file
 - Display the last 10 lines of `/etc/passwd` 
+Task 5. I'd prefer the first ones actually
+- Display the last 10 lines of `/etc/passwd`
