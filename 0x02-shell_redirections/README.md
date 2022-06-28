@@ -11,3 +11,5 @@ Task 4. Last lines of a file
 - Display the last 10 lines of `/etc/passwd` 
 Task 5. I'd prefer the first ones actually
 - Display the last 10 lines of `/etc/passwd`
+Task 6. Line #2 
+- Write a script that displays the third line of the file `iacta`. 
