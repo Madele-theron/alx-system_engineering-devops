@@ -36,3 +36,5 @@ Task 16. What's next?
 Task 17. I hate bins
 - Display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”. 
  
+Task 18. Letters only please
+- Display all lines of the file `/etc/ssh/sshd_config` starting with a letter.
