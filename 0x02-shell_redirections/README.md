@@ -38,3 +38,5 @@ Task 17. I hate bins
  
 Task 18. Letters only please
 - Display all lines of the file `/etc/ssh/sshd_config` starting with a letter.
+Task 19. A to Z
+- Replace all characters `A` and `c` from input to `Z` and `e` respectively.
