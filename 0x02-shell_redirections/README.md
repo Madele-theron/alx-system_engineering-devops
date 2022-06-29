@@ -21,15 +21,18 @@ Task 9. Duplicate last line
 - Write a script that duplicates the last line of the file `iacta`
 Task 10. No more javascript
 - Write a script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
-Task 11. Don\'t just count your directories, make your directories count
+Task 11. Don't just count your directories, make your directories count
 - Write a script that counts the number of directories and sub-directories in the current directory.
-Task 12. What\’s new
+Task 12. What’s new
 - Create a script that displays the 10 newest files in the current directory.
 Task 13. Being unique is better than being perfect
 - Create a script that takes a list of words as input and prints only words that appear exactly once.
 Task 14. It must be in that file
 - Display lines containing the pattern “root” from the file `/etc/passwd`
 Task 15. Count that word
-- Display the number of lines that contain the pattern \“bin\” in the file  `/etc/passwd`
-Task 16. What\'s next?
-- Display lines containing the pattern \“root\” and 3 lines after them in the file `/etc/passwd`
+- Display the number of lines that contain the pattern “bin” in the file  `/etc/passwd`
+Task 16. What's next?
+- Display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`
+Task 17. I hate bins
+- Display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”. 
+ 
