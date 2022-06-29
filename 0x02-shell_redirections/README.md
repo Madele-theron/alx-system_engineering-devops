@@ -27,5 +27,5 @@
 | 22. DJ Cut Killer | Write a script that displays all users and their home directories, sorted by users. | `cut -d : -f 1,6 /etc/passwd \| sort`
 | 23. Empty casks make the most noise | Write a command that finds all empty files and directories in the current directory and all sub-directories. | `find . -empty \| rev \| cut -d '/' -f 1 \| rev`
 | 24. A gif is worth ten thousand words | Write a script that lists all the files with a `.gif` extension in the current directory and all its sub-directories. | `find -type f -name "*.gif" \| rev \| cut -d "/" -f 1 \| cut -d '.' -f 2- \| rev \| LC_ALL=C sort -f`
-| 25. Acrostic | Create a script that decodes acrostics that use the first letter of each line. \| `cut -c1 \| paste -s \| tr -d "[:blank:]" `
+| 25. Acrostic | Create a script that decodes acrostics that use the first letter of each line. | `cut -c1 \| paste -s \| tr -d "[:blank:]" `
 | 26. The biggest fan | Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. | `tail -n +2 \| cut -f1 \| sort \| uniq -c \| sort -nr \| head -11 \| tr -s ' ' \| cut -d' ' -f3`
