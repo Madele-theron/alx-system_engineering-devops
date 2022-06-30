@@ -18,5 +18,5 @@
 | 13. Floats | Write a script that prints a number with two decimal places, followed by a new line. | `printf "%.2f\n" $NUM`
 | 14. Decimal to Hexadecimal | Write a script that converts a number from base 10 to base 16. | `printf '%x\n' $DECIMAL`
 | 15. Everyone is a proponent of strong encryption | Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII. | `tr 'A-Za-z' 'N-ZA-Mn-za-m'`
-| 16. The eggs of the brood need to be an odd number | Write a script that prints every other line from the input, starting with the first line. | `ls | grep -n . | grep [13579]: | cut -d ":" -f 2-`
+| 16. The eggs of the brood need to be an odd number | Write a script that prints every other line from the input, starting with the first line. | `ls \| grep -n . \| grep [13579]: \| cut -d ":" -f 2-`
 | 17. I'm an instant star. Just add water and stir. | Write a shell script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result. | ` `
