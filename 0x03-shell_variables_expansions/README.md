@@ -21,4 +21,4 @@
 | 16. The eggs of the brood need to be an odd number | Write a script that prints every other line from the input, starting with the first line. | `ls \| grep -n . \| grep [13579]: \| cut -d ":" -f 2-`
 17. I'm an instant star. Just add water and stir. <br />
 Write a shell script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result. <br />
-~~~~ `printf "%o\n" $(($((5#$(echo $WATER | tr water 01234)))+$((5#$(echo $STIR | tr stir. 01234))))) | tr 01234567 behlnort ~~~~
+~~~~ printf "%o\n" $(($((5#$(echo $WATER | tr water 01234)))+$((5#$(echo $STIR | tr stir. 01234))))) | tr 01234567 behlnort ~~~~
